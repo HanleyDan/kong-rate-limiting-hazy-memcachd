@@ -1,0 +1,323 @@
+2021/09/27 11:37:56 [notice] 83248#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2021/09/27 11:37:56 [notice] 83248#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2021/09/27 11:37:56 [notice] 83248#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2021/09/27 11:37:56 [notice] 83248#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2021/09/27 11:37:56 [notice] 83248#0: using the "kqueue" event method
+2021/09/27 11:37:56 [notice] 83248#0: openresty/1.19.3.2
+2021/09/27 11:37:56 [notice] 83248#0: OS: Darwin 20.6.0
+2021/09/27 11:37:56 [notice] 83248#0: hw.ncpu: 16
+2021/09/27 11:37:56 [notice] 83248#0: net.inet.tcp.sendspace: 131072
+2021/09/27 11:37:56 [notice] 83248#0: kern.ipc.somaxconn: 128
+2021/09/27 11:37:56 [notice] 83248#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2021/09/27 11:37:56 [notice] 83264#0: start worker processes
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83265
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83266
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83267
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83268
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83269
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83270
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83271
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83272
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83273
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83274
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83275
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83276
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83277
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83278
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83279
+2021/09/27 11:37:56 [notice] 83264#0: start worker process 83280
+2021/09/27 11:37:56 [notice] 83268#0: *4 [lua] globalpatches.lua:62: executing a blocking 'sleep' (0.01 seconds), context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83265#0: *1 [lua] warmup.lua:92: single_dao(): Preloading 'services' into the core_cache..., context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83269#0: *5 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83270#0: *6 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83267#0: *3 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83266#0: *2 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83271#0: *7 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83274#0: *10 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83272#0: *8 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83273#0: *9 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83276#0: *12 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83275#0: *11 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83277#0: *13 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83279#0: *15 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83280#0: *16 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83269
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83267
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83267
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83266
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83266
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83270
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83270
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83271
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83271
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83271
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83271
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83271
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83273
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83272
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83272
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83272
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83276
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83274
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83277
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83278#0: *14 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83275
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83279
+2021/09/27 11:37:56 [notice] 83265#0: *1 [lua] warmup.lua:129: single_dao(): finished preloading 'services' into the core_cache (in 130ms), context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83268#0: *4 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83278
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83268
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received from 83265
+2021/09/27 11:37:56 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:37:56 [notice] 83265#0: *33 [lua] warmup.lua:34: warming up DNS entries ..., context: ngx.timer
+2021/09/27 11:37:56 [notice] 83265#0: *33 [lua] warmup.lua:58: finished warming up DNS entries' into the cache (in 212ms), context: ngx.timer
+2021/09/27 11:48:08 [notice] 83264#0: signal 15 (SIGTERM) received from 84461, exiting
+2021/09/27 11:48:08 [notice] 83265#0: exiting
+2021/09/27 11:48:08 [notice] 83268#0: exiting
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83275#0: exiting
+2021/09/27 11:48:08 [notice] 83269#0: exiting
+2021/09/27 11:48:08 [notice] 83279#0: exiting
+2021/09/27 11:48:08 [notice] 83266#0: exiting
+2021/09/27 11:48:08 [notice] 83278#0: exiting
+2021/09/27 11:48:08 [notice] 83270#0: exiting
+2021/09/27 11:48:08 [notice] 83276#0: exiting
+2021/09/27 11:48:08 [notice] 83273#0: exiting
+2021/09/27 11:48:08 [notice] 83267#0: exiting
+2021/09/27 11:48:08 [notice] 83274#0: exiting
+2021/09/27 11:48:08 [notice] 83271#0: exiting
+2021/09/27 11:48:08 [notice] 83277#0: exiting
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83275
+2021/09/27 11:48:08 [notice] 83280#0: exiting
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83272#0: exiting
+2021/09/27 11:48:08 [notice] 83269#0: exit
+2021/09/27 11:48:08 [notice] 83267#0: exit
+2021/09/27 11:48:08 [notice] 83276#0: exit
+2021/09/27 11:48:08 [notice] 83268#0: exit
+2021/09/27 11:48:08 [notice] 83279#0: exit
+2021/09/27 11:48:08 [notice] 83278#0: exit
+2021/09/27 11:48:08 [notice] 83270#0: exit
+2021/09/27 11:48:08 [notice] 83266#0: exit
+2021/09/27 11:48:08 [notice] 83265#0: exit
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83276
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83276 exited with code 0
+2021/09/27 11:48:08 [notice] 83272#0: exit
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83279 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83267 exited with code 0
+2021/09/27 11:48:08 [notice] 83271#0: exit
+2021/09/27 11:48:08 [notice] 83275#0: exit
+2021/09/27 11:48:08 [notice] 83273#0: exit
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83265
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83269 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83278 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83268 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83265 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83266
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83271 exited with code 0
+2021/09/27 11:48:08 [notice] 83274#0: exit
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83272 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83270 exited with code 0
+2021/09/27 11:48:08 [notice] 83277#0: exit
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83266 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83272
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83275
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83275 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83273
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83273 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83274
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83274 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83277
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83277 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83280#0: exit
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received
+2021/09/27 11:48:08 [notice] 83264#0: signal 23 (SIGIO) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: signal 20 (SIGCHLD) received from 83280
+2021/09/27 11:48:08 [notice] 83264#0: worker process 83280 exited with code 0
+2021/09/27 11:48:08 [notice] 83264#0: exit
+2021/09/27 11:48:32 [notice] 84551#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2021/09/27 11:48:32 [notice] 84551#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2021/09/27 11:48:33 [notice] 84551#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2021/09/27 11:48:33 [notice] 84551#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2021/09/27 11:48:33 [notice] 84551#0: using the "kqueue" event method
+2021/09/27 11:48:33 [notice] 84551#0: openresty/1.19.3.2
+2021/09/27 11:48:33 [notice] 84551#0: OS: Darwin 20.6.0
+2021/09/27 11:48:33 [notice] 84551#0: hw.ncpu: 16
+2021/09/27 11:48:33 [notice] 84551#0: net.inet.tcp.sendspace: 131072
+2021/09/27 11:48:33 [notice] 84551#0: kern.ipc.somaxconn: 128
+2021/09/27 11:48:33 [notice] 84551#0: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2021/09/27 11:48:33 [notice] 84560#0: start worker processes
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84561
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84562
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84563
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84564
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84565
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84566
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84567
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84568
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84569
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84570
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84571
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84572
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84573
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84574
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84575
+2021/09/27 11:48:33 [notice] 84560#0: start worker process 84576
+2021/09/27 11:48:33 [notice] 84565#0: *5 [lua] globalpatches.lua:62: executing a blocking 'sleep' (0.01 seconds), context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84561#0: *1 [lua] warmup.lua:92: single_dao(): Preloading 'services' into the core_cache..., context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84562#0: *2 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84563#0: *3 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84564#0: *4 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84568#0: *8 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84566#0: *6 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84567#0: *7 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84569#0: *9 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84570#0: *10 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84571#0: *11 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84572#0: *12 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84573#0: *13 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84574#0: *14 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84575#0: *15 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84563
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84566
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84567
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84569
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84570
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84572
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84571
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84573
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84574
+2021/09/27 11:48:33 [notice] 84561#0: *1 [lua] warmup.lua:129: single_dao(): finished preloading 'services' into the core_cache (in 125ms), context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84575
+2021/09/27 11:48:33 [notice] 84576#0: *16 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84561
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84561#0: *31 [lua] warmup.lua:34: warming up DNS entries ..., context: ngx.timer
+2021/09/27 11:48:33 [notice] 84565#0: *5 [kong] init.lua:290 only worker #0 can manage, context: init_worker_by_lua*
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received from 84565
+2021/09/27 11:48:33 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:48:33 [notice] 84561#0: *31 [lua] warmup.lua:58: finished warming up DNS entries' into the cache (in 199ms), context: ngx.timer
+2021/09/27 11:51:57 [notice] 84560#0: signal 15 (SIGTERM) received from 84971, exiting
+2021/09/27 11:51:57 [notice] 84563#0: exiting
+2021/09/27 11:51:57 [notice] 84569#0: exiting
+2021/09/27 11:51:57 [notice] 84565#0: exiting
+2021/09/27 11:51:57 [notice] 84571#0: exiting
+2021/09/27 11:51:57 [notice] 84564#0: exiting
+2021/09/27 11:51:57 [notice] 84574#0: exiting
+2021/09/27 11:51:57 [notice] 84561#0: exiting
+2021/09/27 11:51:57 [notice] 84573#0: exiting
+2021/09/27 11:51:57 [notice] 84572#0: exiting
+2021/09/27 11:51:57 [notice] 84568#0: exiting
+2021/09/27 11:51:57 [notice] 84567#0: exiting
+2021/09/27 11:51:57 [notice] 84575#0: exiting
+2021/09/27 11:51:57 [notice] 84566#0: exiting
+2021/09/27 11:51:57 [notice] 84570#0: exiting
+2021/09/27 11:51:57 [notice] 84576#0: exiting
+2021/09/27 11:51:57 [notice] 84562#0: exiting
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84561
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84571#0: exit
+2021/09/27 11:51:57 [notice] 84565#0: exit
+2021/09/27 11:51:57 [notice] 84564#0: exit
+2021/09/27 11:51:57 [notice] 84566#0: exit
+2021/09/27 11:51:57 [notice] 84572#0: exit
+2021/09/27 11:51:57 [notice] 84575#0: exit
+2021/09/27 11:51:57 [notice] 84573#0: exit
+2021/09/27 11:51:57 [notice] 84569#0: exit
+2021/09/27 11:51:57 [notice] 84563#0: exit
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84565
+2021/09/27 11:51:57 [notice] 84570#0: exit
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84565 exited with code 0
+2021/09/27 11:51:57 [notice] 84567#0: exit
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84571
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84571 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84564 exited with code 0
+2021/09/27 11:51:57 [notice] 84562#0: exit
+2021/09/27 11:51:57 [notice] 84561#0: exit
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84573
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84575 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84573 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84572 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84566 exited with code 0
+2021/09/27 11:51:57 [notice] 84568#0: exit
+2021/09/27 11:51:57 [notice] 84574#0: exit
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84570
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84570 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84569 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84563 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84562
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84567 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84562 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84561
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84561 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84568
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84568 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84574
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84574 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84576#0: exit
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received
+2021/09/27 11:51:57 [notice] 84560#0: signal 20 (SIGCHLD) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: worker process 84576 exited with code 0
+2021/09/27 11:51:57 [notice] 84560#0: signal 23 (SIGIO) received from 84576
+2021/09/27 11:51:57 [notice] 84560#0: exit
