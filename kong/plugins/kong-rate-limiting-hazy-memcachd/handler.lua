@@ -1,6 +1,6 @@
 -- Copyright (C) Kong Inc.
 local timestamp = require "kong.tools.timestamp"
-local policies = require "kong.plugins.rate-limiting.policies"
+local policies = require "kong.plugins.kong-rate-limiting-hazy-memcachd.policies"
 
 
 local kong = kong
@@ -15,7 +15,7 @@ local timer_at = ngx.timer.at
 
 
 local EMPTY = {}
-local EXPIRATION = require "kong.plugins.rate-limiting.expiration"
+local EXPIRATION = require "kong.plugins.kong-rate-limiting-hazy-memcachd.expiration"
 
 
 local RATELIMIT_LIMIT     = "RateLimit-Limit"

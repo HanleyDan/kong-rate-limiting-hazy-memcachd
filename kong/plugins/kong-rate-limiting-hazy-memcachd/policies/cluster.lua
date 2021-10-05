@@ -11,7 +11,7 @@ local tonumber = tonumber
 local tostring = tostring
 
 
-local EXPIRATION = require "kong.plugins.rate-limiting.expiration"
+local EXPIRATION = require "kong.plugins.kong-rate-limiting-hazy-memcachd.expiration"
 
 
 local find

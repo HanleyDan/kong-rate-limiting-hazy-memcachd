@@ -1,4 +1,4 @@
-local policy_cluster = require "kong.plugins.rate-limiting.policies.cluster"
+local policy_cluster = require "kong.plugins.kong-rate-limiting-hazy-memcachd.policies.cluster"
 local timestamp = require "kong.tools.timestamp"
 local reports = require "kong.reports"
 local redis = require "resty.redis"
@@ -48,7 +48,7 @@ end
 local sock_opts = {}
 
 
-local EXPIRATION = require "kong.plugins.rate-limiting.expiration"
+local EXPIRATION = require "kong.plugins.kong-rate-limiting-hazy-memcachd.expiration"
 
 
 local function get_redis_connection(conf)
@@ -105,7 +105,7 @@ local function get_memcache_connection(conf)
 
   memc:set_timeout(1000) -- 1 sec
 
-  local ok, err = memc:connect(config.hazelcast_host, config.hazelcast_port)
+  local ok, err = memc:connect(conf.hazelcast_host, conf.hazelcast_port)
   if not ok then
     kong.log.err("failed to connect: ", err)
     return
